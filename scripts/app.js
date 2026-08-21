@@ -11,4 +11,4 @@ if (viva){
     alert(saudacao+"\n"+msg);
 }else{
     alert("R.I.P");
-}
+} 
