@@ -4,4 +4,4 @@ let i = 1;
 while(1<=vezes){
     alert(`Contei ${i}`);
     i = i + 1;
-}
+}while(i<=vezes);
