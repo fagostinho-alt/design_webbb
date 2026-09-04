@@ -8,5 +8,5 @@ switch(dia){
     case 5: alert("você escolheu quinta")
     case 6: alert("você escolheu sexta")
     case 7: alert("você escolheu sábado")
-    default: alert("Di inválido");
+    default: alert("Di inválido");break;
 }
