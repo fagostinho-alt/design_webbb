@@ -3,11 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula 08: Intrção JS e HTML</title>
 </head>
 <body>
-    <h1>Olá, meu nome é Andressa!</h1>
-    <h2>Esta é minha primeira aula de design web.</h2>
-    <h3>Data: 14 agosto 2026</h3>
+    <h3>Data: 11/09/2026</h3>
+    <table border="1">
+        <tr>
+            <td>
+                <button id="ant">Anterior</button>
+                <button id="prox">Próximo</button>
+            </td>
+            <td rowspan="4">
+            <img id="foto" src="./img/foto1.jpg" width="350px" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select id="combocox">
+                    <option value="1">Mel</option>
+                    <option value="2">Balu</option>
+                    <option value="3">Zoey</option>
+                    <option value="4">Aia</option>
+                    <option value="5">Pitomba</option>
+                    <option value="6">Bombom</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li id="li1">Mel</li>
+                    <li id="li2">Balu</li>
+                    <li id="li3">Zoey</li>
+                    <li id="li4">Aia</li>
+                    <li id="li5">Pitomba</li>
+                    <li id="li6">Bombom</li>
+            </ul>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="range" id="opacidade" min="0" max="1" step="0.1" value="1">
+            </td>
+        </tr>
+    </table>
+    <script src="./js/app1.js" defer></script>
 </body>
 </html>
