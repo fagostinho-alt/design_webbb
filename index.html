@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula 09: Agenda de Contatos</title>
 </head>
 <body>
-    <h1>Olá, meu nome é Andressa!</h1>
-    <h2>Esta é minha primeira aula de design web.</h2>
-    <h3>Data: 14 agosto 2026</h3>
+    <h1>Meus amigos</h1>
+    <hr/>
+    <form action="a" id="cadastro" method="post">
+        <table>
+            <tr>
+                <td>Nome</td>
+                <td>
+                    <input type="text" required name="nome" minlength="3"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Data de Nascimento</td>
+                <td>
+                    <input type="date" name="nasc"/>
+                </td>
+            </tr>
+            <tr>
+                <td>WhatsApp</td>
+                <td>
+                    <input type="tel" name="WhatsApp"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Adicionar">
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr/>
+    <ul id="lista">
+        <li>Lista Vazia</li>
+    </ul>
+    <script src="./js/app1.js" defer></script>
 </body>
-</html>
+</html>                                                
